@@ -1,0 +1,98 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "prepare": {
+      "name": "prepare",
+      "command": "yarn prepare",
+      "runAtStart": false
+    },
+    "dev:web": {
+      "name": "dev:web",
+      "command": "yarn dev:web",
+      "runAtStart": false
+    },
+    "dev:desktop": {
+      "name": "dev:desktop",
+      "command": "yarn dev:desktop",
+      "runAtStart": false
+    },
+    "storybook": {
+      "name": "storybook",
+      "command": "yarn storybook",
+      "runAtStart": false
+    },
+    "build:web": {
+      "name": "build:web",
+      "command": "yarn build:web",
+      "runAtStart": false
+    },
+    "build:desktop": {
+      "name": "build:desktop",
+      "command": "yarn build:desktop",
+      "runAtStart": false
+    },
+    "build:storybook": {
+      "name": "build:storybook",
+      "command": "yarn build:storybook",
+      "runAtStart": false
+    },
+    "build:tokens": {
+      "name": "build:tokens",
+      "command": "yarn build:tokens",
+      "runAtStart": false
+    },
+    "clean:packages": {
+      "name": "clean:packages",
+      "command": "yarn clean:packages",
+      "runAtStart": false
+    },
+    "eslint": {
+      "name": "eslint",
+      "command": "yarn eslint",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "yarn lint",
+      "runAtStart": false
+    },
+    "lint:staged": {
+      "name": "lint:staged",
+      "command": "yarn lint:staged",
+      "runAtStart": false
+    },
+    "typecheck": {
+      "name": "typecheck",
+      "command": "yarn typecheck",
+      "runAtStart": false
+    },
+    "saas-ui:build": {
+      "name": "saas-ui:build",
+      "command": "yarn saas-ui:build",
+      "runAtStart": false
+    },
+    "saas-ui:storybook": {
+      "name": "saas-ui:storybook",
+      "command": "yarn saas-ui:storybook",
+      "runAtStart": false
+    },
+    "saas-ui:publish": {
+      "name": "saas-ui:publish",
+      "command": "yarn saas-ui:publish",
+      "runAtStart": false
+    },
+    "saas-ui:publish:next": {
+      "name": "saas-ui:publish:next",
+      "command": "yarn saas-ui:publish:next",
+      "runAtStart": false
+    }
+  }
+}
